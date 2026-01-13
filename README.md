@@ -206,7 +206,7 @@ This repository contains:
 ## 📬 Contact
 
 [![Gmail](https://img.shields.io/badge/Gmail-abhishekchauhan9036%40gmail.com-red?style=flat-square&logo=gmail)](mailto:abhishekchauhan9036@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Chauhan-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abhishek-chauhan-10b4991b8/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Chauhan-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-chauhan-10b4991b8/)
 [![GitHub](https://img.shields.io/badge/GitHub-AbhishekChauhan9036-yellow?style=flat-square&logo=github)](https://github.com/AbhishekChauhan9036)
 
 
