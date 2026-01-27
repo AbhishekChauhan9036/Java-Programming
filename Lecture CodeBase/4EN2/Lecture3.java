@@ -18,7 +18,7 @@ public class Lecture3{
             System.out.print(brr[i]+" ");
         }
 
-        // User input in Array
+        // User Input Array
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Size of an Array: ");
         int n = sc.nextInt();
@@ -38,7 +38,7 @@ public class Lecture3{
         System.out.println(mat[1][0]);
 
 
-        //User input in 2D Array 
+        // User Input 2D Array
         int r = sc.nextInt();
         int c = sc.nextInt();
         int matrix[][] = new int[r][c];
