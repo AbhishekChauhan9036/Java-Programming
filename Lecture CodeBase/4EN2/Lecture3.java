@@ -1,5 +1,5 @@
 /**
- * Arrays in Java
+ * 1D and 2D Arrays in Java
  */
 import java.util.Scanner;
 public class Lecture3{
