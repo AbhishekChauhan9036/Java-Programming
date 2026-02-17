@@ -2,15 +2,15 @@ class Student{
     String name;
     int age;
     String address;
-    Student(String n, int a, String add){
-        name = n;
-        age = a;
-        address = add;
+    Student(String name, int age, String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
     }
     public void printDetails(){
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(address);
+        System.out.println(this.name);
+        System.out.println(this.age);
+        System.out.println(this.address);
     }
 }
 public class Lecture7{
