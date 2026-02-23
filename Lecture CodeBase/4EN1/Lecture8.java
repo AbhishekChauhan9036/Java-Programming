@@ -10,6 +10,7 @@ class Student{
     
     // Parameterized Construtor
     Student(String name, int age, String address){
+        this();
         this.name = name;
         this.age = age;
         this.address = address;
