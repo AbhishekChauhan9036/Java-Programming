@@ -1,6 +1,0 @@
-package com.myapp;
-class Helper{
-    public static void print(){
-        System.out.println("this is helper Class with is declare inside myapp pacakge");
-    }
-}
