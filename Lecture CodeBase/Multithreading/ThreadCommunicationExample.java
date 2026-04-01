@@ -1,17 +1,14 @@
 // Thread Communication (Thread-Safe Code)
 class Items {
     int count = 1000;
-
     synchronized void consume(int n) {
         System.out.println("Consumer wants: " + n);
-
         while (count < n) {
             System.out.println("Not enough items... Waiting");
             try {
                 wait(); // wait for producer
             } catch (Exception e) {}
         }
-
         count -= n;
         System.out.println("Consumed: " + n);
         System.out.println("Remaining: " + count);
@@ -19,10 +16,8 @@ class Items {
 
     synchronized void produce(int n) {
         System.out.println("Producing: " + n);
-
         count += n;
         System.out.println("Total: " + count);
-
         notify(); // wake up consumer
     }
 }
@@ -58,10 +53,10 @@ public class ThreadCommunicationExample {
     public static void main(String[] args) {
         Items obj = new Items();
 
-        Consumer c = new Consumer(obj);
-        Producer p = new Producer(obj);
+        Consumer t1 = new Consumer(obj);
+        Producer t2 = new Producer(obj);
 
-        c.start();
-        p.start();
+        t1.start();
+        t2.start();
     }
 }
