@@ -20,7 +20,7 @@ public class CalculatorSwing extends JFrame implements ActionListener {
         add(display, BorderLayout.NORTH);
 
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(4, 4, 5, 5));   // button grid
+        panel.setLayout(new GridLayout(4, 4, 5, 5));
 
         String buttons[] = {
                 "7","8","9","/",
